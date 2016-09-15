@@ -7,7 +7,7 @@
   <add key="MaxKeepAliveTimeout" value="00:10:00" /> <!-- default: no limit -->
   <add key="RetainPropertyName" value="mqtt-retain" /> <!-- default: mqtt-retain -->
   <add key="DupPropertyName" value="mqtt-dup" /> <!-- default: mqtt-dup -->
-  <add key="QoSPropertyName" value="mqtt-qos" /> <!-- default: mqtt-qos -->
+  <add key="QoSPropertyName" value="mqtt-qos " /> <!-- default: mqtt-qos -->
   
   <!-- IoT Hub settings -->
   <add key="IotHubClient.ConnectionString" value="TODO: IoT Hub connection string to connect to" />

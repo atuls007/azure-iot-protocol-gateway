@@ -8,7 +8,7 @@ namespace Microsoft.Azure.Devices.ProtocolGateway
     using System.Diagnostics;
     using System.Globalization;
 
-    public interface ISettingsProvider
+    public interface ISettingsProvider 
     {
         bool TryGetSetting(string name, out string value);
     }
